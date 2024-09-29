@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remova o estilo de lista dos elementos `ul` e `ol` */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remova o sublinhado de links */
+a {
+  text-decoration: none;
+  color: inherit; /* herda a cor do elemento pai */
+}
+
+/* Remova bordas e estilizações padrão de botões e inputs */
+button,
+input,
+textarea {
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+body {
+  margin: 0; /* Remove margens padrão */
+  display: flex; /* Usa flexbox para centralização */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: rgb(22, 22, 22); /* Fundo escuro */
+}
+
+.main-div {
+  border-color: rgb(43, 43, 43);
+  width: 400px; /* Largura fixa (pode ser ajustada) */
+}
+.component-div {
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  background-color: #d3d3d3; /* Cor cinza claro */
+}
+
+.subcomponents-div{
+    margin: 0px -14px;
+    background-color: #e4e4e4;
+    border-radius: 8px;
+    padding: 14px;
+}
+.components-list{
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  background-color: #f7f7f7; /* Cor cinza claro */
+}
+
+.flex{
+    display: flex;
+}
+.justify-around{
+    display: flex;
+    justify-content: space-around;
+}
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.g-12{
+    gap: 12px;
+}
+.m-top-12{
+    margin-top: 12px;
+}
+
+.p-12{
+    padding-top: 12px;
+}
+
+.p-6{
+    padding-top: 6px;
+}
+
+.p-2{
+    padding-top: 3px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.g-6{
+    gap: 6px;
+}
+
+.m-top-36{
+    margin-top: 36px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+.p-36{
+    padding-top: 36px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+.m-bottom-n12 {
+    margin-bottom: -14px;
+}
