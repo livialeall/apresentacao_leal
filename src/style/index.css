@@ -1,22 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* Resetar estilos */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Remova o estilo de lista dos elementos `ul` e `ol` */
 ul,
 ol {
   list-style: none;
 }
-
-/* Remova o sublinhado de links */
 a {
   text-decoration: none;
   color: inherit; /* herda a cor do elemento pai */
 }
 
-/* Remova bordas e estilizações padrão de botões e inputs */
 button,
 input,
 textarea {
@@ -33,9 +32,109 @@ body {
   background-color: rgb(22, 22, 22); /* Fundo escuro */
 }
 
+/* Fonte e Pesos */
+.roboto-thin {
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.font-size-12{
+  font-size: 12px;
+}
+
+.font-size-14{
+  font-size: 14px;
+}
+
+
+.font-size-8{
+  font-size: 8px;
+}
+
+
+/* Variáveis */
+
+/* Divisao da tela */
 .main-div {
   border-color: rgb(43, 43, 43);
-  width: 400px; /* Largura fixa (pode ser ajustada) */
+  width: 500px; /* Largura fixa (pode ser ajustada) */
+  min-width: 25vw;
+  height: 100vh;
 }
 .component-div {
   padding: 20px; /* Espaçamento interno */
@@ -55,6 +154,7 @@ body {
   background-color: #f7f7f7; /* Cor cinza claro */
 }
 
+/* display */
 .flex{
     display: flex;
 }
@@ -66,12 +166,31 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.text-align-center{
+  text-align: center;
+}
 
+
+/* Margens,paddings e espaços */
 .g-12{
     gap: 12px;
 }
 .m-top-12{
     margin-top: 12px;
+}
+.m-top-6{
+  margin-top: 6px;
+}
+.p-16{
+  padding-top: 16px;
 }
 
 .p-12{
@@ -86,11 +205,6 @@ body {
     padding-top: 3px;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
 .g-6{
     gap: 6px;
 }
@@ -99,16 +213,8 @@ body {
     margin-top: 36px;
 }
 
-.text-align-center{
-    text-align: center;
-}
 .p-36{
     padding-top: 36px;
-}
-
-.flex-center {
-    display: flex;
-    justify-content: center;
 }
 .m-bottom-n12 {
     margin-bottom: -14px;

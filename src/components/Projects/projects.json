@@ -1,0 +1,28 @@
+[{
+  "title": "CRUD - Resenha Filme",
+  "year": 2023,
+  "technologies": ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+  "link": "https://ecommerce-example.com",
+  "information": "A personal portfolio website showcasing my projects, skills, and experience.A personal portfolio website showcasing my projects, skills, and experience.A personal portfolio website showcasing my projects, skills, and experience.",
+  "problem": "Customers needed a reliable and fast platform to buy and manage their products online, with secure payment integration.",
+  "solution": "Built a scalable e-commerce solution using React for the frontend, Node.js for the backend, and MongoDB for the database. Integrated with Stripe for secure payments."
+},
+{
+  "title": "BLACK - BarberShop",
+  "year": 2022,
+  "technologies": ["HTML", "CSS", "JavaScript", "React"],
+  "link": "https://portfolio-example.com",
+  "information": "A personal portfolio website showcasing my projects, skills, and experience.A personal portfolio website showcasing my projects, skills, and experience.A personal portfolio website showcasing my projects, skills, and experience.",
+  "problem": "Needed a digital platform to present my work and attract potential clients or employers.",
+  "solution": "Designed and developed a responsive, user-friendly portfolio website using React and Tailwind CSS. Optimized for performance and accessibility."
+},
+{
+  "title": "Gym 4Girls",
+  "year": 2021,
+  "technologies": ["Vue.js", "Firebase", "Tailwind CSS"],
+  "link": "https://taskmanager-example.com",
+  "information": "A simple and intuitive task management app for users to create, edit, and track their daily tasks.",
+  "problem": "Users needed a way to efficiently organize and manage tasks with real-time updates and cross-device synchronization.",
+  "solution": "Developed a responsive task management app using Vue.js and Firebase for real-time database functionality and user authentication."
+}]
+  
