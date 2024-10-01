@@ -18,7 +18,7 @@ const Item = () => {
         <p className="m-top-12 font-size-14">{item.information}</p>
         <a href="">
         <button className="m-top-12">
-            Visit Github
+            
         </button>
         </a>
         {/* ESPAÇO PARA FOTOS E MAIS INFORMAÇÕES */}
