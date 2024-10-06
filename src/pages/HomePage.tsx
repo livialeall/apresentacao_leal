@@ -8,7 +8,7 @@ function HomePage() {
     <>
       <div className="component-div m-top-12">
         <Myself />
-          <List page={"Projetos"} index={undefined}></List>
+          <List page={"Projetos"} id={""}></List>
         <Footer />
       </div>
     </>

@@ -7,6 +7,6 @@ createRoot(document.getElementById('root')!).render(
     <div className="main-div roboto-regular">
       <StrictMode>
         <App />
-      </StrictMode>,
+      </StrictMode>
     </div>
 )

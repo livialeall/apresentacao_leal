@@ -7,6 +7,25 @@
   box-sizing: border-box;
 }
 
+
+/* Variáveis */
+:root {
+  --purple-4-light: #8163ee70;
+  --purple-3: #8163ee;
+  --purple-2: #6a48e6;
+  --purple-1: #4328a3;
+  --purple-0: #322872;
+  --gray-0: #141414;
+  --gray-1:#2B2B2B;
+  --gray-2:#414040;
+  --gray-3:#858585;
+  --gray-4:#555555;
+  --gray-5:#aaaaaafb;
+  --gray-6:#c9c9c9;
+  --gray-7:#dbdbdb;
+  --proporcao-foto:1,196;
+}
+
 ul,
 ol {
   list-style: none;
@@ -29,9 +48,13 @@ body {
   display: flex; /* Usa flexbox para centralização */
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
-  background-color: rgb(22, 22, 22); /* Fundo escuro */
+  background: radial-gradient(circle at 20% 50%,#0a0030, var(--gray-0) 80%);
+  color: var(--gray-7);
 }
 
+button{
+  color: var(--gray-7);
+}
 /* Fonte e Pesos */
 .roboto-thin {
   font-family: "Roboto", system-ui;
@@ -105,13 +128,28 @@ body {
   font-style: italic;
 }
 
-
 .righteous-regular {
   font-family: "Righteous", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+.gradient-background-light{
+  background: linear-gradient(to right,var(--purple-4-light),var(--purple-3));
+}
+.gradient-background{
+  background: linear-gradient(to right,var(--purple-1),var(--purple-2));
+}
+.background-dark {
+  background-color: var(--gray-1);
+}
+
+.font-size-24{
+  font-size: 24px;
+}
+.font-size-18{
+  font-size: 18px;
+}
 
 .font-size-12{
   font-size: 12px;
@@ -121,42 +159,95 @@ body {
   font-size: 14px;
 }
 
+.rounded-full{
+  border-radius:100%;
+}
 
+.rounded-10{
+  border-radius:10px;
+}
+
+.rounded-5{
+  border-radius:5px;
+}
 .font-size-8{
   font-size: 8px;
 }
 
+.color-light{
+  color: var(--gray-7);
+}
 
-/* Variáveis */
+.active {
+  background: linear-gradient(to right,var(--purple-1),var(--purple-2));
+}
+.max-width{
+  max-width: 100%;
+}
 
 /* Divisao da tela */
 .main-div {
-  border-color: rgb(43, 43, 43);
-  width: 500px; /* Largura fixa (pode ser ajustada) */
-  min-width: 25vw;
+  width: 100%; /* Largura fixa (pode ser ajustada) */
+  max-width: 425px;
+  min-width: 425px;
   height: 100vh;
 }
 .component-div {
   padding: 20px; /* Espaçamento interno */
   border-radius: 8px; /* Bordas arredondadas */
-  background-color: #d3d3d3; /* Cor cinza claro */
+  background-color: var(--gray-1);/* Cor cinza claro */
+  box-shadow: 1px 1px 10px rgb(17, 17, 17);
 }
 
 .subcomponents-div{
     margin: 0px -14px;
-    background-color: #e4e4e4;
+    background-color:var(--gray-2);
     border-radius: 8px;
     padding: 14px;
 }
 .components-list{
   padding: 20px; /* Espaçamento interno */
   border-radius: 8px; /* Bordas arredondadas */
-  background-color: #f7f7f7; /* Cor cinza claro */
+  background-color: var(--gray-4); /* Cor cinza claro */
 }
 
+p{
+  line-height: 1.6;
+  font-size: 14px;
+  color: var(--gray-6);
+}
+
+img{
+  width: 100%;
+  margin: auto 0px;
+  border: 6px solid var(--purple-2);
+  margin: 0 auto
+}
+
+h2{
+  margin: 15px 0px;
+  font-family: "Righteous", sans-serif;
+}
 /* display */
 .flex{
     display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.display-inline{
+  display: inline-flex; 
+}
+.align-center{
+  display: flex;
+  align-items: center;
+}
+.align-baseline{
+  display: flex;
+  align-items: baseline;
+}
+.justify-center{
+  justify-content: center;
 }
 .justify-around{
     display: flex;
@@ -177,40 +268,104 @@ body {
 .text-align-center{
   text-align: center;
 }
+.border-puple{
+  border: 2px solid var(--purple-2);
+}
 
+.background-purple-hover :hover{
+  background-color: var(--purple-3);
+  transition: background-color 0.5s ease;
+}
+
+.background-gray{
+  background-color:var(--gray-2);
+}
+
+.hover-color-gradient:hover{
+  background: linear-gradient(to right,var(--purple-1),var(--purple-2));
+}
+
+.hover-color-purple-2:hover{
+  color: var(--purple-3);
+  transition: color 0.25s ease;
+}
+
+.hover-bold:hover{
+  font-weight: bold;
+  transition: font-weight 0.25s ease;
+}
+.shadow{
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.171); /* Sombra do botão */
+}
+
+.shadow-lighter{
+  box-shadow: 1px 1px 10px rgba(104, 103, 103, 0.288); /* Sombra do botão */
+}
+.circle{
+  width:  8px; /* Largura da esfera */
+  height: 8px; /* Altura da esfera */
+  border-radius: 50%; 
+
+}
+h1{
+  font-size: 2.5em;
+}
 
 /* Margens,paddings e espaços */
 .g-12{
     gap: 12px;
 }
+.g-6{
+  gap: 6px;
+}
+
+.m-top-36{
+  margin-top: 16%;
+}
+
+.m-top-24{
+  margin-top: 12%;
+}
+
 .m-top-12{
-    margin-top: 12px;
+    margin-top: 6%;
 }
 .m-top-6{
-  margin-top: 6px;
+  margin-top: 4%;
 }
 .p-16{
   padding-top: 16px;
 }
 
 .p-12{
-    padding-top: 12px;
+    padding-top: 14%;
 }
 
 .p-6{
-    padding-top: 6px;
+    padding-top: 10%;
 }
 
 .p-2{
     padding-top: 3px;
 }
 
+.p-full-4{
+  padding: 4px;
+}
+
+.p-full-6{
+  padding: 6px;
+}
+.p-sides-4-8{
+  padding: 4px 12px;
+}
+
 .g-6{
     gap: 6px;
 }
 
-.m-top-36{
-    margin-top: 36px;
+.p-6-top-bottom{
+  padding: 6px 0px;
 }
 
 .p-36{

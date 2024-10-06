@@ -20,9 +20,9 @@ const Buttons = () => {
     }
     return(
         <div className="flex g-12 p-16">
-            <button onClick={copiarEmail}>{buttonText}</button>
-            <button><a href="https://www.linkedin.com/in/l%C3%ADvia-leal-264472176/" target="blank"> Linkedin</a></button>
-            <button><a href="https://github.com/livialeall" target="blank">Github</a></button>
+            <button onClick={copiarEmail} className="gradient-background p-full-4 rounded-5 hover-bold font-size-12 shadow p-sides-4-8">{buttonText}</button>
+            <button className="gradient-background p-full-4 rounded-5 hover-bold font-size-12 shadow p-sides-4-8"><a href="https://www.linkedin.com/in/l%C3%ADvia-leal-264472176/" target="blank"> Linkedin</a></button>
+            <button className="gradient-background p-full-4 rounded-5 hover-bold font-size-12 shadow p-sides-4-8"><a href="https://github.com/livialeall" target="blank">Github</a></button>
         </div>
 
     )

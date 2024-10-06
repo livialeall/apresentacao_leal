@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex-center m-top-12">
             <Buttons></Buttons>
         </div>
-        <footer className="text-align-center subcomponents-div m-bottom-n12 m-top-36">
+        <footer className="text-align-center subcomponents-div m-bottom-n12 m-top-36 gradient-background ">
             <div className="righteous-regular">&lt;LEAL&gt;</div>
             <div className="font-size-8">2024</div>
         </footer>
