@@ -15,7 +15,7 @@ const List = ({ page, id }: { page: string; id: string | undefined }) => {
     filteredProjects = projects
   }
   return (
-    <div className="subcomponents-div m-top-36">
+    <div className="subcomponents-div m-top-24">
       {page != "" && (
         <div className="flex justify-between p-6-top-bottom">
           <div className=" flex align-center g-6">
@@ -38,7 +38,7 @@ const List = ({ page, id }: { page: string; id: string | undefined }) => {
         {filteredProjects.map((item) => (
           <Link
             to={`/projects/${item.id}`}
-            className="components-list hover-color-gradient hover-bold shadow gradient-background-light "
+            className="components-list hover-color-gradient shadow gradient-background-light "
           >
             <button
               key={item.id}

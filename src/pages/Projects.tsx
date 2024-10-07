@@ -10,7 +10,8 @@ const Projects = () => {
             <IconeSuperior page={"Projetos"}></IconeSuperior>
             <Title page={page}></Title>
             <p className="m-top-6">
-                Aqui estão os projetos em que trabalhei. Todos foram planejados com foco no usuário e com as tecnlogias mais relevantes no mercado.
+                Todos os sistemas abaixo foram foram desenvolvidos com foco na usabilidade do usuário, atingimento do objetivo comercial do cliente e fácil manutenabilidade.Procuro sempre estudar as tecnologias mais atuais para criação de aplicações robustas e sustentáveis.
+                lore
             </p>
             <List page={""} id={""} />
             <Footer></Footer>

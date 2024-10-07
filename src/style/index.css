@@ -280,6 +280,7 @@ h2{
 
 .hover-color-gradient:hover{
   background: linear-gradient(to right,var(--purple-1),var(--purple-2));
+  transition: background-color 0.5s ease;
 }
 
 .hover-color-purple-2:hover{
@@ -305,6 +306,7 @@ h2{
   width:  8px; /* Largura da esfera */
   height: 8px; /* Altura da esfera */
   border-radius: 50%; 
+  background: linear-gradient(to right,var(--purple-1),var(--purple-2));
 
 }
 /* Margens,paddings e espaços */
@@ -369,4 +371,12 @@ h2{
 }
 .m-bottom-n12 {
     margin-bottom: -14px;
+}
+
+.m-6{
+  margin: 4% 0%;
+}
+
+.m-minus-6{
+  margin: -6% 0%;
 }
