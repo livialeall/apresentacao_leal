@@ -1,16 +1,15 @@
 import Footer from "../components/Footer";
+import IconeSuperior from "../components/IconeSuperior";
 import List from "../components/Projects/List";
+import Title from "../components/Title";
 import "../style/index.css";
-import { getTecnologies } from "../utils";
 const About = () => {
+    const page = "Sobre Mim"
   return (
     <>
       <div className="component-div m-top-12 ">
-        <div className=" flex align-center g-6">
-          <p className="circle gradient-background shadow"></p>
-          <div>Sore Mim</div>
-        </div>
-        <h1 className="m-top-24 righteous-regular">Sobre Mim</h1>
+      <IconeSuperior page={page}></IconeSuperior>
+      <Title page={page}></Title>
         <p>
           Olá, eu me chamo Lívia Leal, sou desenvolvedora fullstack há 1 ano Rio
           de janeiro.Trabalho com C#, React e SQL e meu objetivo é desenolver

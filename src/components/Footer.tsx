@@ -5,7 +5,7 @@ const Footer = () => {
         <>
         <div>
             <h2 className="text-align-center p-36">Vamos trabalhar juntos?</h2>
-            <p className="p-6 text-align-center p-6">Criar aplicações dinâmicas que alavacam seu negócio</p>
+            <span className=" flex justify-center text-align-center">Criar aplicações dinâmicas que alavacam o seu negócio</span>
         </div>
         <div className="flex-center m-top-12">
             <Buttons></Buttons>

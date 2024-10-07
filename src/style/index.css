@@ -7,54 +7,6 @@
   box-sizing: border-box;
 }
 
-
-/* Variáveis */
-:root {
-  --purple-4-light: #8163ee70;
-  --purple-3: #8163ee;
-  --purple-2: #6a48e6;
-  --purple-1: #4328a3;
-  --purple-0: #322872;
-  --gray-0: #141414;
-  --gray-1:#2B2B2B;
-  --gray-2:#414040;
-  --gray-3:#858585;
-  --gray-4:#555555;
-  --gray-5:#aaaaaafb;
-  --gray-6:#c9c9c9;
-  --gray-7:#dbdbdb;
-  --proporcao-foto:1,196;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: inherit; /* herda a cor do elemento pai */
-}
-
-button,
-input,
-textarea {
-  border: none;
-  background: none;
-  font-family: inherit;
-}
-
-body {
-  margin: 0; /* Remove margens padrão */
-  display: flex; /* Usa flexbox para centralização */
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  background: radial-gradient(circle at 20% 50%,#0a0030, var(--gray-0) 80%);
-  color: var(--gray-7);
-}
-
-button{
-  color: var(--gray-7);
-}
 /* Fonte e Pesos */
 .roboto-thin {
   font-family: "Roboto", system-ui;
@@ -134,16 +86,6 @@ button{
   font-style: normal;
 }
 
-.gradient-background-light{
-  background: linear-gradient(to right,var(--purple-4-light),var(--purple-3));
-}
-.gradient-background{
-  background: linear-gradient(to right,var(--purple-1),var(--purple-2));
-}
-.background-dark {
-  background-color: var(--gray-1);
-}
-
 .font-size-24{
   font-size: 24px;
 }
@@ -159,6 +101,66 @@ button{
   font-size: 14px;
 }
 
+.font-size-8{
+  font-size: 8px;
+}
+/* Variáveis */
+:root {
+  --purple-4-light: #8163ee70;
+  --purple-3: #8163ee;
+  --purple-2: #6a48e6;
+  --purple-1: #4328a3;
+  --purple-0: #322872;
+  --gray-0: #141414;
+  --gray-1:#2B2B2B;
+  --gray-2:#414040;
+  --gray-3:#858585;
+  --gray-4:#555555;
+  --gray-5:#aaaaaafb;
+  --gray-6:#c9c9c9;
+  --gray-7:#dbdbdb;
+  --proporcao-foto:1,196;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit; /* herda a cor do elemento pai */
+}
+
+button,
+input,
+textarea {
+  border: none;
+  background: none;
+  font-family: inherit;
+  color: var(--gray-7);
+}
+
+body {
+  margin: 0; /* Remove margens padrão */
+  display: flex; /* Usa flexbox para centralização */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background: radial-gradient(circle at 20% 50%,#0a0030, var(--gray-0) 80%);
+  color: var(--gray-7);
+}
+
+/* Backgrounds */
+.gradient-background-light{
+  background: linear-gradient(to right,var(--purple-4-light),var(--purple-3));
+}
+.gradient-background{
+  background: linear-gradient(to right,var(--purple-1),var(--purple-2));
+}
+
+.background-gray{
+  background-color:var(--gray-2);
+}
+/* Rounded */
 .rounded-full{
   border-radius:100%;
 }
@@ -169,13 +171,6 @@ button{
 
 .rounded-5{
   border-radius:5px;
-}
-.font-size-8{
-  font-size: 8px;
-}
-
-.color-light{
-  color: var(--gray-7);
 }
 
 .active {
@@ -220,8 +215,12 @@ p{
 img{
   width: 100%;
   margin: auto 0px;
-  border: 6px solid var(--purple-2);
+  border: 12px solid var(--purple-2);
   margin: 0 auto
+}
+
+h1{
+  font-size: 2.5em;
 }
 
 h2{
@@ -268,17 +267,15 @@ h2{
 .text-align-center{
   text-align: center;
 }
-.border-puple{
-  border: 2px solid var(--purple-2);
-}
 
 .background-purple-hover :hover{
   background-color: var(--purple-3);
   transition: background-color 0.5s ease;
 }
 
-.background-gray{
-  background-color:var(--gray-2);
+.hover-gray:hover{
+  background-color: #555555;
+  transition: background-color 0.5s ease;
 }
 
 .hover-color-gradient:hover{
@@ -287,13 +284,15 @@ h2{
 
 .hover-color-purple-2:hover{
   color: var(--purple-3);
-  transition: color 0.25s ease;
+  transition: color 0.5s ease;
 }
 
 .hover-bold:hover{
   font-weight: bold;
-  transition: font-weight 0.25s ease;
+  transition: font-weight 0.5s ease;
 }
+
+/* shadow */
 .shadow{
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.171); /* Sombra do botão */
 }
@@ -301,16 +300,13 @@ h2{
 .shadow-lighter{
   box-shadow: 1px 1px 10px rgba(104, 103, 103, 0.288); /* Sombra do botão */
 }
+/* icones */
 .circle{
   width:  8px; /* Largura da esfera */
   height: 8px; /* Altura da esfera */
   border-radius: 50%; 
 
 }
-h1{
-  font-size: 2.5em;
-}
-
 /* Margens,paddings e espaços */
 .g-12{
     gap: 12px;

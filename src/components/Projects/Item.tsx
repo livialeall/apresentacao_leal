@@ -15,7 +15,6 @@ const Item = () => {
       <div className="component-div m-top-12 ">
         <h1 className="righteous-regular">{item.title}</h1>
         <p className="m-top-12 font-size-14">{item.information}</p>
-        {/* ESPAÇO PARA FOTOS E MAIS INFORMAÇÕES */}
         <List page={"Outros Projetos"} id={id}/>
         <Footer/>
       </div>

@@ -42,7 +42,7 @@ const List = ({ page, id }: { page: string; id: string | undefined }) => {
           >
             <button
               key={item.id}
-              className="display-inline align-baseline g-6 "
+              className="display-inline align-baseline g-6"
             >
               {item.title}
             </button>
