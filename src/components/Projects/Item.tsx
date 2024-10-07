@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { getProjects } from "../../utils";
 import Footer from "../Footer";
 import List from "./List";
+import Info from "./Info";
 
 const Item = () => {
     const data : { id: string; title: string ; information: string}[] = getProjects();
@@ -13,6 +14,7 @@ const Item = () => {
     }
     return (
       <div className="component-div m-top-12 ">
+        <Info item={item}></Info>
         <h1 className="righteous-regular">{item.title}</h1>
         <p className="m-top-12 font-size-14">{item.information}</p>
         <List page={"Outros Projetos"} id={id}/>
