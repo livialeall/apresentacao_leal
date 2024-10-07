@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 
-const Buttons = () => {
+const Buttons = ({name,link}: {name: string, link : string}) => {
     const email = "liviabenine@gmail.com";
     const [buttonText, setButtonText] = useState("Email");
 
@@ -19,12 +20,9 @@ const Buttons = () => {
     });
     }
     return(
-        <div className="flex g-12 p-16">
-            <button onClick={copiarEmail} className="gradient-background p-full-4 rounded-5 hover-bold font-size-12 shadow p-sides-4-8">{buttonText}</button>
-            <button className="gradient-background p-full-4 rounded-5 hover-bold font-size-12 shadow p-sides-4-8"><a href="https://www.linkedin.com/in/l%C3%ADvia-leal-264472176/" target="blank"> Linkedin</a></button>
-            <button className="gradient-background p-full-4 rounded-5 hover-bold font-size-12 shadow p-sides-4-8"><a href="https://github.com/livialeall" target="blank">Github</a></button>
-        </div>
-
+        <>
+            <Link to={link} target="_blank" className="gradient-background p-full-4 rounded-5 hover-bold font-size-12 shadow p-sides-4-8" onClick={link == "" ? copiarEmail : undefined}>{name}</Link>
+        </>
     )
 }
 
