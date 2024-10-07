@@ -2,11 +2,12 @@
   "id":"1",
   "title": "CRUD - Resenha Filme",
   "year": 2023,
-  "technologies": ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-  "link": "https://ecommerce-example.com",
+  "technologies": ["React", "Node.js", "MongoDB", "Tailwind"],
+  "link": "https://www.google.com/search?sca_esv=3d3b353ff43599c8&sxsrf=ADLYWIINWgyc1-LirvrHtvuUCBxZlOnFyA:1728340788282&q=crud&udm=2&fbs=AEQNm0AuaLfhdrtx2b9ODfK0pnmi046uB92frSWoVskpBryHTrdWqiVbaH6EqK0Fq9hkAkqRDuhGs7UQnPtZiL0Bzcj78aaFR2vnR4DfQyahVzxKNc4LGy-dSmtu0GzO7wqoCoKeVc1DGD7oqFC5NSRNfugkowmHkG6b6P3pNqnjH9wiZMaj4fjG1jdVkuVLIMivt99Wnsv1qj1v01DE4a8lq57ILUNbUw&sa=X&ved=2ahUKEwjW2PGVq_2IAxUjO7kGHRdjBcEQtKgLegQIEhAB&biw=767&bih=730&dpr=1.25",
   "information": "A personal portfolio website showcasing my projects, skills, and experience.A personal portfolio website showcasing my projects, skills, and experience.A personal portfolio website showcasing my projects, skills, and experience.",
   "problem": "Customers needed a reliable and fast platform to buy and manage their products online, with secure payment integration.",
-  "solution": "Built a scalable e-commerce solution using React for the frontend, Node.js for the backend, and MongoDB for the database. Integrated with Stripe for secure payments."
+  "solution": "Built a scalable e-commerce solution using React for the frontend, Node.js for the backend, and MongoDB for the database. Integrated with Stripe for secure payments.",
+  "github": "https://github.com/livialeall/crud_resenha_filme"
 },
 {
   "id":"2",
@@ -16,7 +17,8 @@
   "link": "https://portfolio-example.com",
   "information": "ESSA É A BARBEARIA",
   "problem": "Needed a digital platform to present my work and attract potential clients or employers.",
-  "solution": "Designed and developed a responsive, user-friendly portfolio website using React and Tailwind CSS. Optimized for performance and accessibility."
+  "solution": "Designed and developed a responsive, user-friendly portfolio website using React and Tailwind CSS. Optimized for performance and accessibility.",
+  "github":""
 },
 {
   "id":"3",
@@ -26,7 +28,8 @@
   "link": "https://taskmanager-example.com",
   "information": "A simple and intuitive task management app for users to create, edit, and track their daily tasks.",
   "problem": "Users needed a way to efficiently organize and manage tasks with real-time updates and cross-device synchronization.",
-  "solution": "Developed a responsive task management app using Vue.js and Firebase for real-time database functionality and user authentication."
+  "solution": "Developed a responsive task management app using Vue.js and Firebase for real-time database functionality and user authentication.",
+  "github":""
 },{
   "id":"4",
   "title": "Macrame Bella",
@@ -35,7 +38,8 @@
   "link": "https://taskmanager-example.com",
   "information": "A simple and intuitive task management app for users to create, edit, and track their daily tasks.",
   "problem": "Users needed a way to efficiently organize and manage tasks with real-time updates and cross-device synchronization.",
-  "solution": "Developed a responsive task management app using Vue.js and Firebase for real-time database functionality and user authentication."
+  "solution": "Developed a responsive task management app using Vue.js and Firebase for real-time database functionality and user authentication.",
+  "github":""
 },{
   "id":"5",
   "title": "Clean Eating - Challange",
@@ -44,6 +48,7 @@
   "link": "https://taskmanager-example.com",
   "information": "A simple and intuitive task management app for users to create, edit, and track their daily tasks.",
   "problem": "Users needed a way to efficiently organize and manage tasks with real-time updates and cross-device synchronization.",
-  "solution": "Developed a responsive task management app using Vue.js and Firebase for real-time database functionality and user authentication."
+  "solution": "Developed a responsive task management app using Vue.js and Firebase for real-time database functionality and user authentication.",
+  "github":""
 }]
   
