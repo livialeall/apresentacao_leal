@@ -7,19 +7,19 @@ const About = () => {
     const page = "Sobre Mim"
   return (
     <>
-      <div className="component-div m-top-12 ">
+      <div className="component-div">
       <IconeSuperior page={page}></IconeSuperior>
       <Title page={page}></Title>
         <p>
-          Eu me chamo Lívia Leal, sou desenvolvedora fullstack há 1 ano Rio
-          de janeiro.Trabalho com C#, React e SQL e meu objetivo é desenolver
+          Eu me chamo <b>Lívia Leal</b>, sou desenvolvedora fullstack há 1 ano Rio
+          de janeiro.Trabalho com <b>C#, React e SQL</b> e meu objetivo é desenolver
           sistemas relevantes para os usuários mais diversos e atingir os
           objetivos comercias dos clientes.
         </p>
         <img
           src="src/assets/20230801_075842 (1).png"
           alt=""
-          className="m-top-12 flex justify-center align-center shadow rounded-10"
+          className="m-top-6 flex justify-center align-center shadow rounded-10"
         />
         <h2>Mais sobre mim</h2>
         <p>

@@ -6,7 +6,7 @@ import "../style/index.css";
 function HomePage() {
   return (
     <>
-      <div className="component-div m-top-12">
+      <div className="component-div">
         <Myself />
           <List page={"Projetos"} id={""}></List>
         <Footer />
