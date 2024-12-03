@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="component-div">
             <IconeSuperior page={"Projetos"}></IconeSuperior>
             <Title page={page}></Title>
-            <p className="m-top-4">
+            <p className="m-top-6 font-size-15">
                 Todos os sistemas abaixo foram foram desenvolvidos com foco na usabilidade do usuário, atingimento do objetivo comercial do cliente e fácil manutenabilidade.Procuro sempre estudar as tecnologias mais atuais para criação de aplicações robustas e sustentáveis.
                 lore
             </p>

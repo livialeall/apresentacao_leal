@@ -80,12 +80,19 @@
   font-weight: 400;
   font-style: normal;
 }
+p{
+  font-size: 15px;
+}
 
 .font-size-24{
   font-size: 24px;
 }
 .font-size-18{
   font-size: 18px;
+}
+
+.font-size-15{
+  font-size: 15px;
 }
 
 .font-size-12{
@@ -336,6 +343,9 @@ h2{
 
 .m-bottom-4{
   margin-bottom: 4%;
+}
+.m-bottom-6{
+  margin-bottom: 6%;
 }
 
 .m-top-6{

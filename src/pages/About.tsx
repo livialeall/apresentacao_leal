@@ -11,8 +11,8 @@ const About = () => {
       <IconeSuperior page={page}></IconeSuperior>
       <Title page={page}></Title>
         <p>
-          Eu me chamo Lívia Leal, sou desenvolvedora fullstack há 1 ano Rio
-          de janeiro.Trabalho com C#, React e SQL e meu objetivo é desenolver
+          Eu me chamo <b>Lívia Leal</b>, sou desenvolvedora fullstack há 1 ano Rio
+          de janeiro.Trabalho com <b>C#, React e SQL</b> e meu objetivo é desenolver
           sistemas relevantes para os usuários mais diversos e atingir os
           objetivos comercias dos clientes.
         </p>

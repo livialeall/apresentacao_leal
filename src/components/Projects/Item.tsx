@@ -17,7 +17,7 @@ const Item = () => {
         <Tecnologias itens={item.technologies}></Tecnologias>
         <h1 className="righteous-regular">{item.title}</h1>
         <p className="font-size-14">{item.information}</p>
-        <div className="flex g-12 m-top-6">
+        <div className="flex g-12 m-top-6 m-bottom-6">
           <Buttons name="Visitar Projeto" link={item.link}></Buttons>
           <Buttons name="Github" link={item.github}></Buttons>
         </div>
