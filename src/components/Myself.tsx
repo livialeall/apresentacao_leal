@@ -15,14 +15,14 @@ const Myself = () => {
 
         <Title page={page}></Title>
 
-        <div className="">
+        <div className="m-bottom-4">
           <p className="color-light">Estagiária - BTG Pactual</p>
           <p className="font-size-12 color-light">Rio de Janeiro</p>
         </div>
 
         <Tecnlogias itens={tecNames}></Tecnlogias>
 
-        <div className="flex g-12 p-16">
+        <div className="flex g-12 m-top-8">
           <Buttons
             name={"Linkedin"}
             link={"https://www.linkedin.com/in/l%C3%ADvia-leal-264472176/"}

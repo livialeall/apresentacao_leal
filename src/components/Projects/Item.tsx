@@ -10,13 +10,13 @@ const Item = () => {
     const { id }   = useParams(); 
     const item = data.find((data) => data.id == id);
     if (!item) {
-      return <h2 className="component-div">Item não encontrado</h2>;
+      return <h2 className="component-div">Item não encontrado </h2>;
     }
     return (
-      <div className="component-div m-top-12 ">
+      <div className="component-div">
         <Tecnologias itens={item.technologies}></Tecnologias>
         <h1 className="righteous-regular">{item.title}</h1>
-        <p className="m-top-12 font-size-14">{item.information}</p>
+        <p className="font-size-14">{item.information}</p>
         <div className="flex g-12 m-top-6">
           <Buttons name="Visitar Projeto" link={item.link}></Buttons>
           <Buttons name="Github" link={item.github}></Buttons>

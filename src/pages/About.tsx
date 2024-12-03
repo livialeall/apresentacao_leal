@@ -7,7 +7,7 @@ const About = () => {
     const page = "Sobre Mim"
   return (
     <>
-      <div className="component-div m-top-12 ">
+      <div className="component-div">
       <IconeSuperior page={page}></IconeSuperior>
       <Title page={page}></Title>
         <p>
@@ -19,7 +19,7 @@ const About = () => {
         <img
           src="src/assets/20230801_075842 (1).png"
           alt=""
-          className="m-top-12 flex justify-center align-center shadow rounded-10"
+          className="m-top-6 flex justify-center align-center shadow rounded-10"
         />
         <h2>Mais sobre mim</h2>
         <p>
